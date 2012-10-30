@@ -1,3 +1,5 @@
+[![Dependency Status](https://gemnasium.com/kurotaky/nebel-site.png)](https://gemnasium.com/kurotaky/nebel-site)
+
 # Nebel-site - A static site template for nebel
 
 This is a site template and utilities for [nebel](https://github.com/mizzy/nebel).
