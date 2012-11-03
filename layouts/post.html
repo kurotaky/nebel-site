@@ -3,46 +3,45 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>{% if index != true %}{{ title }} - {% endif %}mo-fu.org</title>
 <link rel="stylesheet" type="text/css" href="/css/kube.css" />
+<link rel="stylesheet" type="text/css" href="/css/master.css" />
 <link href="/atom.xml" rel="alternate" title="Blog Title" type="application/atom+xml">
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 <body>
-<h1 class="site-title"><a href="/">mo-fu.org</a></h1>
-<div class="content autopagerize_page_element">
-  <div class="wrapper">
-    <header id="header" class="group">
-      <nav>
-	<ul>
-          <li>
-            <a href="http://github.com/kurotaky" target="_blank">github</a>
-          </li>
-          <li>
-            <a href="http://twitter.com/kurotaky" target="_blank">twitter</a>
-          </li>
-	</ul>
-      </nav>
-    </header>
-  </div>
+<div class="wrapper">
+<header id="header" class="group">
+  <h1 class="site-title"><a href="/">mo-fu.org</a></h1>
+  <nav>
+    <ul>
+      <li>
+        <a href="http://github.com/kurotaky" target="_blank">github</a>
+      </li>
+      <li>
+        <a href="http://twitter.com/kurotaky" target="_blank">twitter</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<div id="main">
   <time>{{ date_formatted }}</time>
-  <h1 class="entry-title"><a href="{{ link }}">{{ title }}</a></h1>
-
-  <div class="content">
+  <h2 class="entry-title"><a href="{{ link }}">{{ title }}</a></h2>
+  <div class="row">
+    <div class="content">
     {{ content }}
-  </div>
-
-
-  <div class="pagination">
+    </div>
+    <div class="pagination">
     {% if next_page %}
-    <a href="{{ next_page.link }}" rel="next">next post</a>
+      <a href="{{ next_page.link }}" rel="next">next post</a>
     {% endif %}
-    
+
     {% if prev_page %}
-    <a href="{{ prev_page.link }}">previous post</a>
+      <a href="{{ prev_page.link }}">previous post</a>
     {% endif %}
+    </div>
   </div>
-
 </div>
-
-<div class="autopagerize_insert_before"></div>
-
 </body>
 </html>
