@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Blog Title]]></title>
+  <title><![CDATA[mo-fu.org]]></title>
   <link href="http://mo-fu.org/atom.xml" rel="self"/>
   <link href="http://mo-fu.org/"/>
   <updated>{{ feeds[0].date }}</updated>
   <id>http://mo-fu.org/</id>
   <author>
-    <name><![CDATA[Blog Title]]></name>
+    <name><![CDATA[kurotaky]]></name>
     
   </author>
   <generator uri="https://github.com/mizzy/nebel/">nebel</generator>
