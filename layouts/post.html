@@ -28,23 +28,27 @@
     </ul>
   </nav>
 </header>
-<div id="main">
-  <time>{{ date_formatted }}</time>
-  <h2 class="entry-title"><a href="{{ link }}">{{ title }}</a></h2>
-  <div class="row">
-    <div class="content">
-    {{ content }}
-    </div>
-    <div class="pagination">
-    {% if next_page %}
-      <a href="{{ next_page.link }}" rel="next">next post</a>
-    {% endif %}
-
-    {% if prev_page %}
-      <a href="{{ prev_page.link }}">previous post</a>
-    {% endif %}
+<div class="autopagerize_page_element">      
+  <div id="main">
+    <time>{{ date_formatted }}</time>
+    <h2 class="entry-title"><a href="{{ link }}">{{ title }}</a></h2>
+    <div class="row">
+      <div class="content">
+        {{ content }}
+      </div>
+      <div class="pagination">
+        {% if next_page %}
+        <a href="{{ next_page.link }}" rel="next">next post</a>
+        {% endif %}
+        
+        {% if prev_page %}
+        <a href="{{ prev_page.link }}">previous post</a>
+        {% endif %}
+      </div>
     </div>
   </div>
+</div>
+<div class="autopagerize_insert_before"></div>
 </div>
 </body>
 </html>
