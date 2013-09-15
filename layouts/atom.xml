@@ -10,7 +10,7 @@
     <name><![CDATA[kurotaky]]></name>
     
   </author>
-  <generator uri="https://github.com/mizzy/nebel/">nebel</generator>
+  <generator uri="https://github.com/mizzy/nebel/">Nebel</generator>
 
 {% for feed in feeds %}
   <entry>
