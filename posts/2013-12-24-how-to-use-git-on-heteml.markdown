@@ -112,7 +112,7 @@ git commit -m 'first commit'
 
 tig や git log で確認するとコミット履歴を見ることが出来ます。
 
-### hetemlにリポジトリを作成してローカルPCからpushする
+## hetemlにリポジトリを作成してローカルPCからpushする
 heteml に sshログインして、ディレクトリを作成します。
 
 ```
