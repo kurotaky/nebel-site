@@ -3,8 +3,7 @@ title: hetemlレンタルサーバーでgitを使う
 date: 2013-12-24 08:45:47 +0900
 ---
 
-## hetemlレンタルサーバーでgitを使う
-### gitの初期設定
+## gitの初期設定
 
 ターミナルを使ってsshでログインします。
 
@@ -39,7 +38,7 @@ git config --global color.ui auto
 git config --global --list
 ```
 
-### heteml上にリポジトリを作成する
+## heteml上にリポジトリを作成する
 
 ディレクトリを作成して、移動します。
 
@@ -219,9 +218,9 @@ index 0000000..e69de29
 ```
 
 
-### 参考URL
+## 参考URL
 * http://d.hatena.ne.jp/bannyan/20100308/1268066849
 * http://git-scm.com/book/ja/Git-%E3%81%AE%E5%9F%BA%E6%9C%AC-Git-%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AE%E5%8F%96%E5%BE%97
 
-### 参考文献
+## 参考文献
 * http://www.amazon.co.jp/dp/4274068641
